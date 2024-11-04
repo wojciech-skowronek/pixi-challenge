@@ -42,9 +42,7 @@ class Main {
     this.app = new Application<HTMLCanvasElement>({
       antialias: true,
       backgroundColor: 0x050521,
-      // background: "#1099bb",
       resizeTo: window,
-      resolution: devicePixelRatio,
     });
 
     PixiPlugin.registerPIXI(this.app);
@@ -108,21 +106,3 @@ class Main {
 }
 
 Main.getInstance();
-
-/*
-# TODO:
-
-2. ALL
-- add fullscreen
-- add deployment 
-
-- handle window resize for all stages
-
-
-MAYBE:
-- fix back button z-index
-
-3. Cards 
-- card positions
-
-*/

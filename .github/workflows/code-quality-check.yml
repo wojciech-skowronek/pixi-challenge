@@ -5,8 +5,8 @@ on: [push]
 jobs:
   CodeQualityCheck:
     name: Code Quality Check
-    runs-on: [linux]
-    timeout-minutes: 30
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Check out Git repository

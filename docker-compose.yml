@@ -1,0 +1,9 @@
+services:
+  pixi-challenge:
+    image: nginx
+    build: .
+    ports:
+      - "8220:80"
+    environment:
+      - NGINX_HOST=pixi-challenge.wojcie.ch
+      - NGINX_PORT=80

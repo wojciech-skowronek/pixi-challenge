@@ -114,16 +114,9 @@ Main.getInstance();
 
 2. ALL
 - add fullscreen
-- add GH workflows
 - add deployment 
 
-
-
-- check dates
 - handle window resize for all stages
-
-5. Menu - remove backgrounds
-- code review 
 
 
 MAYBE:
